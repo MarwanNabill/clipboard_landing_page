@@ -17,6 +17,7 @@
 /* Reset */
  *,*::before,*::after{
   box-sizing: border-box;
+
  }
 body {
     font-family:'Bai Jamjuree', sans-serif;
@@ -27,7 +28,6 @@ body {
     line-height:1.5;
     text-transform:capitalize;
     color:var(--main-text-clr);
-
 }
 
 h1,h2,p {
@@ -265,8 +265,9 @@ header {
             }
           
         .full_width {
-           width:100%;
+           width:95%;
             .flex_parent{
+            margin-left:-2.8em;    
             flex-flow:row;
             align-items:center;
             gap:4em;
